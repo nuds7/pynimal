@@ -25,7 +25,7 @@ class Camera(object):
 		self.newAngle 			= 0
 		self.newWeightedScale 	= 0
 		self.newTarget 			= [0,0]
-		self.scale 				= map_size[1]/4
+		self.scale 				= self.screen_size[1]//2
 
 		self.scaleRate 			= scale_rate
 		self.rate 				= rate
